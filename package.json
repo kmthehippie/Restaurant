@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kmthehippie.github.io/Restaurant/",
   "name": "restaurant",
   "version": "1.0.0",
   "description": "Restaurant Page",
@@ -6,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "deploy-demo": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
